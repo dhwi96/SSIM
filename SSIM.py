@@ -7,8 +7,8 @@ import numpy
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-img1 = cv2.imread(r'C:\Users\KIM\Desktop\Untitled.png')
-img2 = cv2.imread(r'C:\Users\KIM\Desktop\Untitled2.png')
+img1 = cv2.imread(r'your original image PATH')
+img2 = cv2.imread(r'your comparion image PATH')
 
 res_img1 = cv2.resize(img1, (256,256))
 res_img2 = cv2.resize(img2, (256,256))
