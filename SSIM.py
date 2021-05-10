@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
-
-
 import cv2
 import torch
 import numpy
@@ -27,4 +24,3 @@ plt.show()
 
 print(type(ssim.numpy()))
 print("ACCCRACY SSIM %.4f" % ssim.numpy())
-
